@@ -19,7 +19,7 @@ CREATE TABLE `admin_users` (
   PRIMARY KEY (`id`),
   KEY `index_admin_users_on_username` (`username`)
 ) AUTO_INCREMENT=2;
-INSERT INTO `admin_users` VALUES (1,'Kevin','Skoglund','','kskoglund',NULL,'2013-08-21 15:59:57','2013-08-21 15:59:57');
+INSERT INTO `admin_users` VALUES (1,'Andrew','Lobban','','alobban',NULL,'2013-08-21 15:59:57','2013-08-21 15:59:57');
 CREATE TABLE `admin_users_pages` (
   `admin_user_id` int(11) DEFAULT NULL,
   `page_id` int(11) DEFAULT NULL,
